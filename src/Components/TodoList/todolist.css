@@ -1,0 +1,47 @@
+.wrapper {
+    width: 100%;
+}
+
+.todoInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-block: 2rem;
+}
+
+.todoInput input {
+    width: 100%;
+    padding: .5rem .8rem;
+    outline: none;
+}
+
+.todoInput button {
+    padding: .5rem .8rem;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.todoListContainer {
+    width: 100%;
+}
+
+.todoListContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+.todoListContainer li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: .5rem;
+    cursor: pointer;
+}
+
+.todoListContainer .uil {
+    cursor: pointer;
+}

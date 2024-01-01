@@ -1,0 +1,12 @@
+h1 {
+    margin-block: 1rem;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
